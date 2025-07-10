@@ -37,4 +37,32 @@ const myFunction = function(){
 
 // console.log(typeof bigNumber);
 // console.log(typeof scoreValue);
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+/*
+let myGithubname = "RudraaNarayan"
+
+let anothername = myGithubname
+anothername = "Bhai"
+
+console.log(myGithubname);
+console.log(anothername);
+*/
+
+let userOne ={
+    name:"roman reigns",
+    email:"user@google.com",
+}
+
+let userTwo = userOne
+
+userTwo.email = "rudra@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
